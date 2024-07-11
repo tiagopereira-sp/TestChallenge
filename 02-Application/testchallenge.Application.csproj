@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\03-Domain\testchallenge.Domain.csproj" />
+    <ProjectReference Include="..\04-Infra\4.2-Data\testchallenge.Data.csproj" />
+  </ItemGroup>
+
 </Project>
